@@ -1,9 +1,18 @@
+'use client';
+
 import Image from 'next/image';
 
 export default function Home() {
+  const handleContextMenu = (e: React.MouseEvent) => {
+    e.preventDefault();
+  };
+
   return (
     <>
-      <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+      <main 
+        className="min-h-screen bg-gradient-to-b from-blue-50 to-white"
+        onContextMenu={handleContextMenu}
+      >
         {/* Header Section */}
         <header className="text-center py-16 px-4 bg-white">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
