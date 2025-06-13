@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import styles from './page.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
@@ -111,9 +112,11 @@ export default function ChatPage() {
             }`}
           >
             {!message.isUser && (
-              <img 
+              <Image 
                 src="/images/ai.jpeg" 
                 alt="AI Avatar" 
+                width={40}
+                height={40}
                 className={styles.avatar}
               />
             )}
@@ -122,9 +125,11 @@ export default function ChatPage() {
               <div className={styles.timestamp}>{message.timestamp}</div>
             </div>
             {message.isUser && (
-              <img 
+              <Image 
                 src="/images/user.jpeg" 
                 alt="User Avatar" 
+                width={40}
+                height={40}
                 className={styles.avatar}
               />
             )}

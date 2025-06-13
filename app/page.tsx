@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <>
@@ -19,9 +21,11 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_25px_-5px_rgba(0,105,180,0.2)] group">
-              <img 
+              <Image 
                 src="https://picsum.photos/400/300?random=1" 
                 alt="膝關節手術" 
+                width={400}
+                height={300}
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
@@ -30,9 +34,11 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_25px_-5px_rgba(0,105,180,0.2)] group">
-              <img 
+              <Image 
                 src="https://picsum.photos/400/300?random=2" 
                 alt="髖關節手術" 
+                width={400}
+                height={300}
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
@@ -41,9 +47,11 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_25px_-5px_rgba(0,105,180,0.2)] group">
-              <img 
+              <Image 
                 src="https://picsum.photos/400/300?random=3" 
                 alt="脊椎手術" 
+                width={400}
+                height={300}
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
@@ -52,9 +60,11 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_25px_-5px_rgba(0,105,180,0.2)] group">
-              <img 
+              <Image 
                 src="https://picsum.photos/400/300?random=4" 
                 alt="肩關節手術" 
+                width={400}
+                height={300}
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
@@ -63,9 +73,11 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_25px_-5px_rgba(0,105,180,0.2)] group">
-              <img 
+              <Image 
                 src="https://picsum.photos/400/300?random=5" 
                 alt="肱骨手術" 
+                width={400}
+                height={300}
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
@@ -74,9 +86,11 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_25px_-5px_rgba(0,105,180,0.2)] group">
-              <img 
+              <Image 
                 src="https://picsum.photos/400/300?random=6" 
                 alt="腕關節手術" 
+                width={400}
+                height={300}
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
@@ -85,9 +99,11 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_25px_-5px_rgba(0,105,180,0.2)] group">
-              <img 
+              <Image 
                 src="https://picsum.photos/400/300?random=7" 
                 alt="踝關節手術" 
+                width={400}
+                height={300}
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
@@ -96,9 +112,11 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_25px_-5px_rgba(0,105,180,0.2)] group">
-              <img 
+              <Image 
                 src="https://picsum.photos/400/300?random=8" 
                 alt="肘關節手術" 
+                width={400}
+                height={300}
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
@@ -107,9 +125,11 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_25px_-5px_rgba(0,105,180,0.2)] group">
-              <img 
+              <Image 
                 src="https://picsum.photos/400/300?random=9" 
                 alt="骨盆手術" 
+                width={400}
+                height={300}
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">

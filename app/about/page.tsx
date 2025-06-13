@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function About() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
@@ -59,9 +61,11 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
-                <img 
+                <Image 
                   src="https://picsum.photos/200/200?random=1" 
                   alt="Dr. CW" 
+                  width={200}
+                  height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -73,9 +77,11 @@ export default function About() {
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
-                <img 
+                <Image 
                   src="https://picsum.photos/200/200?random=2" 
                   alt="王護理長" 
+                  width={200}
+                  height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -87,9 +93,11 @@ export default function About() {
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
-                <img 
+                <Image 
                   src="https://picsum.photos/200/200?random=3" 
                   alt="李物理治療師" 
+                  width={200}
+                  height={200}
                   className="w-full h-full object-cover"
                 />
               </div>

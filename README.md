@@ -49,3 +49,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/JoanneTseng/website-GenAI.git
 git push -u origin main
+
+#build 建置部署到伺服器 Server 的版本
+npm run build
+一定要先關閉 server, 檢查eslint語法檢查器
